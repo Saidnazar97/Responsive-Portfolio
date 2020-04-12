@@ -8,11 +8,12 @@ body {
   background-color: aliceblue;
 }
 
-.nh1 {
+#nh1 {
   color: whitesmoke;
   margin-left: 20px;
   display: inline;
    !important;
+
 }
 
 .card-text {
