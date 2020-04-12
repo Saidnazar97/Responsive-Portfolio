@@ -5,8 +5,7 @@ Requirements for me to make responsive designs and layouts conserning with Boots
 ## Directions Given
 
 Firstly, I will use the Bootstrap CSS Framework to establish a mobile responsive portfolio.
-
-**Setting up Webpages such as (index.html, portfolio, and contact.html).
+Setting up Webpages such as (index.html, portfolio, and contact.html).
 
 - Using Bootstrap, required following items:
 
