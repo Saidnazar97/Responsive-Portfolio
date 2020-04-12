@@ -20,58 +20,81 @@
   <!-- Content here -->
   <!-- <div class="card card-text-center"> -->
   <header>
-    <h1 class="card-header">Saidnazar</h1>
+
+    <nav>
+      <div class="card-header bg-light">
+
+        <ul class=" nav nav-tabs card-header-tabs flex-column flex-md-row justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active bg-secondary" href="#">
+              <h1 class="nh1">Saidnazar</h1>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="contact.html">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
   </header>
-
-  <!-- nav bar shows to navigate web pages it can be header as well -->
-  <nav class="card-header">
-    <ul class="nav nav-pills card-header-pills">
-      <li class="nav-item">
-        <a class="nav-link link disabled" href="#about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link link disabled" href="#portfolio">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link link disabled" href="#contact">Contact</a>
-      </li>
-    </ul>
-  </nav>
-
-
   <main>
-    <div class="card ">
+
+
+    <div class="container ">
       <div class="card-body">
         <h2 class="card-title">Contact</h2>
         <hr>
+        <label for="name">Name</label>
+        <div class="input-group mb-3">
+          <!-- <div class="input-group-prepend">
+            <p class="input-group-text" id="basic-addon1">John Smith</p>
+          </div> -->
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+            aria-describedby="basic-addon1">
+        </div>
 
-        <!-- section semantics show section parts when apllied in nav bar -->
-
-        <section>
 
 
+        <label for="basic-url">Email</label>
+        <div class="input-group mb-3">
+          <!-- <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon3">example@gmail.com</span>
+          </div> -->
+          <input type="text" class="form-control" placeholder="example@gmail.com" aria-label="example@gmail.com">
+        </div>
 
-        </section>
 
+        <label for="basic-url">Message</label>
+        <div class="input-group height-45">
+          <!-- <div class="input-group-prepend">
+            <span class="input-group-text">With textarea</span>
+          </div> -->
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+        <div class="card-header">
+          <button class="btn btn-secondary" type="submit">Submit</button>
+        </div>
       </div>
     </div>
-
-    <article>
-
-    </article>
   </main>
   <!-- footer content shows coprights and contacts  -->
-  <footer class="footer mt-auto py-3">
-    <div class="container">
+  <footer class="footer fixed-bottom mt-auto py-3 bg-dark">
+    <div class="container ">
       <h5 class="text-muted text-center">Made by Saidnazar Rakhimboev</h5>
       <p class="blockquote-footer text-center">&copy; Copyright 2020</p>
     </div>
   </footer>
-  <!-- <footer class="footer mt-auto py-3">
-    <div class="container">
-      <span class="text-muted">Place sticky footer content here.</span>
-    </div>
-  </footer> -->
+
+
+  </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
